@@ -2,7 +2,7 @@
   "login": "hoangduy181",
   "level": 9,
   "overall": "B",
-  "overallPercentile": 0.8578074845643293,
+  "overallPercentile": 0.8665846151517081,
   "layout": "default",
   "class": {
     "name": "Grand Magus",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 98,
+      "value": 99,
       "rank": "C",
-      "percentile": 0.6727194141178425
+      "percentile": 0.6750385402521194
     },
     {
       "code": "AGI",
@@ -31,9 +31,9 @@
     },
     {
       "code": "VIT",
-      "value": 3,
-      "rank": "D",
-      "percentile": 0.507696117492914
+      "value": 4,
+      "rank": "C",
+      "percentile": 0.6331483952649493
     },
     {
       "code": "LUK",
@@ -49,6 +49,13 @@
     }
   ],
   "events": [
+    {
+      "kind": "stat",
+      "subject": "VIT",
+      "from": "D",
+      "to": "C",
+      "at": "2026-11-28T00:31:04.282Z"
+    },
     {
       "kind": "achievement",
       "subject": "escape-artist",
@@ -76,7 +83,7 @@
     {
       "id": "relentless",
       "tier": 0,
-      "value": 98
+      "value": 99
     },
     {
       "id": "unbroken",
@@ -151,7 +158,7 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 23
+      "value": 24
     },
     {
       "id": "daily-grinder",
@@ -186,6 +193,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-27",
+        "cleared": 0,
+        "total": 3
+      },
       {
         "date": "2026-11-26",
         "cleared": 1,
@@ -449,5 +461,5 @@
       "three"
     ]
   },
-  "syncedAt": "2026-11-27T00:59:46.314Z"
+  "syncedAt": "2026-11-28T00:31:04.282Z"
 }
